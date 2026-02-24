@@ -1,0 +1,30 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+*:not(dialog) {
+    margin: 0;
+}
+
+.left-container {
+    position: relative;
+    width: fit-content;
+    height: 100vh;
+}
+
+.bg-img {
+    display: block;
+    width: auto;
+    height: 100vh;
+}
+
+.credit {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.7);    
+    font-size: 0.75rem;
+    white-space: nowrap;
+}
