@@ -10,12 +10,63 @@
     <body>
         <div class="left-container">
             <img class="bg-img" src="images/waves.webp" alt="Sea Waves">
+            <div class="logo-container">
+                <img class="logo-img" src="images/odin-lined.png" alt="The Odin Project Logo">
+                <span class="logo-name">ODIN</span>
+            </div>
             <p class="credit"> 
                 Photo by Shifaaz shamoon on Unsplash</a>
             </p>
         </div>
-        <form>
-            
-        </form>
+
+        <div class="right-container">
+            <div class="signup-intro">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                <p>Sign up now to get started.</p>
+                <p class="signup-highlight">You <em>know</em> you want to.</p>
+            </div>
+             <form action="example.com/path" method="post">
+                <div class="form-container">
+                    <fieldset>
+                        <legend>Let's do this!</legend>
+
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="first-name">FIRST NAME</label>
+                                <input autocomplete="off" id="first-name" name="first-name" type="text">
+                            </div>
+                            <div class="form-field">
+                                <label for="last-name">LAST NAME</label>
+                                <input autocomplete="off" id="last-name" name="last-name" type="text">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="email">EMAIL</label>
+                                <input autocomplete="off" id="email" name="email" type="email">
+                            </div>
+                            <div class="form-field">
+                                <label for="phone">PHONE NUMBER</label>
+                                <input autocomplete="off" id="phone" name="phone" type="tel">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="password">PASSWORD</label>
+                                <input autocomplete="off" id="password" name="password" type="password" required>
+                            </div>
+                            <div class="form-field">                            
+                                <label for="confirm-password">CONFIRM PASSWORD</label>
+                                <input autocomplete="off" id="confirm-password" name="confirm-password" type="password" required>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </div>
+                
+                <button class="form-btn">Create Account</button>
+            </form>
+            <p class="log-in">Already have an account? <a href="#">Log in</a></p>
+        </div>
     </body>
 </html>
